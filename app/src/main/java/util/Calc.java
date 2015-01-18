@@ -7,11 +7,11 @@ public class Calc {
     private int mLeftOp = 0;
     private int mRightOp = 0;
 
-    public int add(int argLeft, int argRight){
+    public static int add(int argLeft, int argRight){
         return argLeft + argRight;
     }
 
-    public int sub(int argLeft, int argRight){
+    public static int sub(int argLeft, int argRight){
         return argLeft - argRight;
     }
 }
